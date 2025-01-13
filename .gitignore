@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE specific files (e.g., VS Code settings)
+.vscode/
+
+# Ignore system files
+.DS_Store       # macOS system file
+Thumbs.db       # Windows system file
+
+# Ignore TensorFlow models
+*.h5
+
+# Ignore logs
+*.log
+
+# Ignore environment variables file
+.env
